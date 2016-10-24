@@ -1,6 +1,9 @@
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Weffc++"
 #include <QApplication>
 #include <QTreeWidget>
 #include <QTreeWidgetItem>
+#pragma GCC diagnostic pop
 
 int main(int argc, char *argv[])
 {
