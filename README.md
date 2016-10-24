@@ -8,4 +8,6 @@
 [![Build Status](https://travis-ci.org/richelbilderbeek/QTreeWidgetExample1.svg?branch=master)](https://travis-ci.org/richelbilderbeek/QTreeWidgetExample1)
 [![codecov.io](https://codecov.io/github/richelbilderbeek/QTreeWidgetExample1/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/QTreeWidgetExample1?branch=master)
 
-QTreeWidgetExample1
+QTreeWidgetExample1 is a simple QTreeWidget example.
+
+![QTreeWidgetExample1](QTreeWidgetExample1.png)
