@@ -37,9 +37,9 @@ before_script:
 script: 
   - qmake
   - make
-  - ./CppQTreeWidgetExample1 &
+  - ./QTreeWidgetExample1 &
   - sleep 10
-  - sudo killall -9 CppQTreeWidgetExample1
+  - sudo killall -9 QTreeWidgetExample1
   - ./get_code_cov.sh >/dev/null
   - codecov >/dev/null
   - ./build_desktop.sh
