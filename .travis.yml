@@ -14,6 +14,10 @@ install:
   - sudo apt-get install -qq qt5-qmake qt5-default
   # Codecov
   - sudo pip install codecov
+  # Check dead links
+  - sudo apt-get install -qq npm
+  - npm config set strict-ssl false
+  - sudo npm install -g markdown-link-check
   # OCLint
   - ./install_oclint.sh
 
@@ -27,7 +31,12 @@ script:
   - sleep 10
   - sudo killall -9 QTreeWidgetExample1
   - ./get_code_cov.sh >/dev/null
+  # Codecov
   - codecov >/dev/null
+  # Check dead links
+  - rm .travis.yml
+  - ./scripts/check_dead_links
+  # OCLint
   - ./do_oclint.sh
 
 after_success:
