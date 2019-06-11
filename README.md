@@ -6,4 +6,4 @@ Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 QTreeWidgetExample1 is a simple QTreeWidget example.
 
-![QTreeWidgetExample1](QTreeWidgetExample1.png)
+![QTreeWidgetExample1](pics/QTreeWidgetExample1.png)
